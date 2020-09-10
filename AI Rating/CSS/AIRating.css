@@ -64,7 +64,8 @@ body{
     padding-left: 40px;
     padding-top: 40px;
     display: grid;
-    height: 110vh;
+    //This height has been removed since it was giveing a lot of margin above the Heading of task
+    //height: 110vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:  2fr 4.7fr 1fr;
     grid-template-areas: 
